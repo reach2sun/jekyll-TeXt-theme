@@ -49,5 +49,11 @@ header:
       # @end locale config
     url: /about.html
 
- - title:      Docs
+ - title:      
+     # @start locale config
+      en      : &EN       Docs
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
     url:       /docs/en/quick-start
